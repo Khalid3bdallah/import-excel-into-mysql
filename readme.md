@@ -12,7 +12,7 @@
 - Upload the 100K reocrds excel file.
 
 **Notes:**
-- I'm assuming the running OS os linux
+- I'm assuming the running OS is linux
 - I used Spout library instead of PHPSpreadsheet to read the excel file because of the performance is very optimized
 PhpSpreadSheet peak memory usage: 219 MB.
 Spout peak memory usage: 2 MB.
