@@ -89,7 +89,7 @@ $mailCommand = <<< MAIL
 curl -s --user 'api:$mailgunApiKey' \
     https://api.mailgun.net/v3/sandbox31fade7d548f4bf486fb8cd7c975897a.mailgun.org/messages \
         -F from='Xlsx to MySQL <postmaster@sandbox31fade7d548f4bf486fb8cd7c975897a.mailgun.org>' \
-        -F to='Recepient <$emailTo>' \
+        -F to='Recipient <$emailTo>' \
         -F subject='Xlsx to MySQL script execution finished successfully' \
         -F text='$mailContent'
 
