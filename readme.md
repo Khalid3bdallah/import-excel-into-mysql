@@ -7,7 +7,7 @@
 - Update config.php
 	- Update the value of `mailgun_api_key` with the api key sent in email.
 - Update `post_max_size` and `upload_max_filesize` values in php.ini to be greater than the file size.
-- Run php -S php -S 127.0.0.1:[custom_port] in terminal
+- Run `php -S php -S 127.0.0.1:[custom_port]` in terminal
 - Open "http://127.0.0.1:[custom_port]/uploader.php" in browser.
 - Upload the 100K reocrds excel file.
 
